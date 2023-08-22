@@ -14,5 +14,5 @@ app.use('/', htmlRoutes);
 
 // Starts the server
 app.listen(PORT, () => {
-  console.log(`Listening on PORT: ${PORT}`)
+  console.log(`Server is running at http://localhost:${PORT}`)
 });
